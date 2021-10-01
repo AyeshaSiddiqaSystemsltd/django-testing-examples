@@ -1,0 +1,6 @@
+git
+.gitignore
+.travis.yml
+pytest.ini
+testing-requirements.txt
+
