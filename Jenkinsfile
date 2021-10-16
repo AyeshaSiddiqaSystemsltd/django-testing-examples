@@ -12,7 +12,7 @@ pipeline {
       parallel {
         stage('beesbees') {
           steps {
-            echo 'HelloWorld'
+            echo 'HelloWorld!'
             sh 'sleep 5'
           }
         }
