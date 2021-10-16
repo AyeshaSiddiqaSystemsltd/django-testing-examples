@@ -4,7 +4,7 @@ pipeline {
     stage('Buzz buzz') {
       steps {
         echo 'Bees Buzz!'
-        sh 'echo Another Placeholder.'
+        sh 'echo Edited Placeholder'
       }
     }
 
