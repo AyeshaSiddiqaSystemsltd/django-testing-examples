@@ -24,9 +24,9 @@ pipeline {
           }
         }
 
-        stage('Buzz Build') {
+        stage('Buzz Test') {
           steps {
-            archiveArtifacts(artifacts: 'target/.jar', fingerprint: true)
+            echo 'dwsw'
           }
         }
 
