@@ -13,7 +13,7 @@ pipeline {
         stage('beesbees') {
           steps {
             echo 'HelloWorld!'
-            sh 'sleep 5'
+            sh 'sleep 10'
           }
         }
 
