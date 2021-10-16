@@ -7,5 +7,22 @@ pipeline {
       }
     }
 
+    stage('beesbees') {
+      parallel {
+        stage('beesbees') {
+          steps {
+            echo 'HelloWorld'
+          }
+        }
+
+        stage('Buzz') {
+          steps {
+            echo 'Myworldismine'
+          }
+        }
+
+      }
+    }
+
   }
 }
