@@ -4,7 +4,7 @@ pipeline {
     stage('Buzz buzz') {
       steps {
         echo 'Bees Buzz!'
-        sh 'echo Edited Placeholder'
+        sh 'echo I am a $BUZZ_Name'
       }
     }
 
@@ -39,5 +39,8 @@ pipeline {
       }
     }
 
+  }
+  environment {
+    BUZZ_Name = 'Worker Bee'
   }
 }
